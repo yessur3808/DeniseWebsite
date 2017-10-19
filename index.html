@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Denise Ho" />
+	<meta property="og:title" content="Denise Ho | Fresh Grad BBA" />
+	<meta name =="viewport" content="width-device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-title" content="Denise Ho's Resume">
+	<meta name="application-name" content="Denise Ho's Resume">
+	<link rel="shortcut icon" href="assets/Pics/logo_icon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="asset/Pics/fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="asset/Pics/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="asset/Pics/fav/favicon-16x16.png">
+<link rel="manifest" href="asset/Pics/fav/manifest.json">
+<link rel="mask-icon" href="asset/Pics/fav/safari-pinned-tab.svg" color="#8e0091">
+<meta name="apple-mobile-web-app-title" content="Denise Ho's Resume">
+<meta name="application-name" content="Denise Ho's Resume">
+<meta name="theme-color" content="#f2cdff">
+    <title>Denise Ho | BBA Fresh Grad Student</title>
+	
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+	    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+	
+	
+	
+	
+	
+	
+	
+	
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+	 <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	
+	
+	<style  type="text/css">
+
+
+
+
+	</style>
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.compatibility.js"></script>
+
+
+		
+	
+	
+	
+	<script type="text/javascript">
+		$(function() {
+  $('.view_details').click(function() {
+    if ($(this).is(':checked')) {
+      $(this)
+        .next('label')
+        .html('&times;')
+        .attr('title', 'tap here to close full profile');
+      $(this)
+        .parent()
+        .next('main')
+        .slideDown('normal');
+    } else {
+      $(this)
+        .next('label')
+        .html('=')
+        .attr('title', 'tap here to view full profile');
+      $(this)
+        .parent()
+        .next('main')
+        .slideUp('fast');
+    }
+  });
+});	</script>
+		
+
+<script type="text/javascript">
+
+		window.onload = function() {
+	var elements = document.getElementsByClassName('txt-rotate');
+	for (var i = 0; i < elements.length; i++) {
+		var toRotate = elements[i].getAttribute('data-rotate');
+		var period = elements[i].getAttribute('data-period');
+		if (toRotate) {
+			new TxtRotate(elements[i], JSON.parse(toRotate), period);
+		}
+	}
+	
+	
+	
+	
+	jQuery.noConflict();
+(function($) {
+	$(function() {
+		$('a.page-scroll').bind('click', function(event) {
+			var $anchor = $(this);
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1500, 'easeInOutExpo');
+			event.preventDefault();
+		});
+	});
+})(jQuery);
+	
+	
+</script>
+	
+		<script type="text/javascript">
+// PreLoader
+jQuery.noConflict();
+(function($) {
+	$(window).on('load', function() { // makes sure the whole site is loaded
+		$('#status').fadeOut(); // will first fade out the loading animation
+		$('#preloader').delay(850).fadeOut('slow'); // will fade out the white DIV that covers the website.
+	});
+})(jQuery);
+
+
+
+
+
+window.onload = function() {
+	var elements = document.getElementsByClassName('txt-rotate');
+	for (var i = 0; i < elements.length; i++) {
+		var toRotate = elements[i].getAttribute('data-rotate');
+		var period = elements[i].getAttribute('data-period');
+		if (toRotate) {
+			new TxtRotate(elements[i], JSON.parse(toRotate), period);
+		}
+	}// INJECT CSS
+	var css = document.createElement("style");
+	css.type = "text/css";
+	css.innerHTML = ".txt-rotate > .wrap { border-right: 10px solid #DDD4FF }";
+	document.body.appendChild(css);
+};
+
+var TxtRotate = function(el, toRotate, period) {
+	this.toRotate = toRotate;
+	this.el = el;
+	this.loopNum = 0;
+	this.period = parseInt(period, 1) || 1000;
+	this.txt = '';
+	this.tick();
+	this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+	var i = this.loopNum % this.toRotate.length;
+	var fullTxt = this.toRotate[i];
+
+	if (this.isDeleting) {
+		this.txt = fullTxt.substring(0, this.txt.length - 1);
+	} else {
+		this.txt = fullTxt.substring(0, this.txt.length + 1);
+	}
+
+	this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+	var that = this;
+	var delta = 200 - Math.random() * 100;
+
+	if (this.isDeleting) {
+		delta /= 2;
+	}
+
+	if (!this.isDeleting && this.txt === fullTxt) {
+		delta = this.period;
+		this.isDeleting = true;
+	} else if (this.isDeleting && this.txt === '') {
+		this.isDeleting = false;
+		this.loopNum++;
+		delta = 200;
+	}
+
+	setTimeout(function() {
+		that.tick();
+	}, delta);
+};
+</script>
+	
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+		
+					<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+	<!-- END PRELOADER -->
+
+	
+	
+	
+	
+	
+
+	
+	
+	
+				
+	
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home" title="Ho Wing Man Denise">Denise Ho</a></h1>
+			<i class="fa fa-times menu-close"></i>
+			<a href="#home" class="smoothScroll" title="Home Page">Home</a>
+			<a href="#about" class="smoothScroll" title="About Me">About</a>
+			<!--a href="#portfolio" class="smoothScroll" title="My Portfolio">Portfolio</a-->
+			<a href="#moremee" class="smoothScroll" title="My Portfolio">More Me</a>
+			<a href="#resumeee" class="smoothScroll" title="My Resume">Resume</a>
+			<a href="#contactwrap" class="smoothScroll" title="Contact Me">Contact</a>
+			<br/><br/>
+			<h4 style="color:white;text-align:center"><u>Other Pages</u></h4>
+			<a href="coffee.html"  alt="My Coffee Related Blog" title="My Coffee Blog"><i class="fa fa-coffee fa-lg"><h6> My Blog</h6></i></a>
+			<a href="#"  alt="" title="Not a Link"><i class="fa fa-ellipsis-v"> </i></a>
+			<a href="photograph.html"  alt="My Photo Gallery" title="My Photo Gallery"><i class="fa fa-camera-retro fa-lg"><h6> My Photos</h6></i></a>
+		<a href="#"  alt="" title="Not a Link"><i class="fa fa-ellipsis-v"> </i></a>
+			<a href="resume.html"  alt="My E-Resume/CV" title="My E-Resume/CV"><i class="fa fa-address-card-o fa-lg"> <h6> E-Resume</h6></i></a>
+			
+			
+			
+			<br/></br><br/><br/><br/>
+			<h4 style="color:white;text-align:center"><u>Social Media</u></h4>
+			<a href="https://www.instagram.com/deniseaventador/" alt="Instagram" title="My Instagram"><i class="fa fa-instagram"></i></a>
+			<a href="#"><i class="fa fa-twitter" alt="Twitter" title="My Twitter"></i></a>
+			<a href="https://www.linkedin.com/in/denise-ho-926a3912a" alt="Linkedin" title="My Linkedin"><i class="fa fa-linkedin"></i></a>
+			<a href="mailto:denisehwm@gmail.com" alt="Email" title="My Email"><i class="fa fa-envelope"></i></a>
+			
+
+			
+			
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="fa fa-bars"></i></div>
+	</nav>
+
+	
+
+	
+	<section id="home" name="home"></section>
+	<div id="headerwrap">
+			<div class="container">
+				<div class="row">
+				
+	
+	
+		<!-- start typer hello  -->
+						<div class="brand-heading">
+							<span class="txt-rotate" data-period="100" data-rotate='[ "Hello,", "你好,", "Bonjour,","안녕하세요,", "Hola,","مرحبا,","こんにちは,", "Hallo,", "Salut,", "你好,","Ciao," ,"Hej," ]'></span>
+						</div>
+	<!-- end typer hello -->
+	
+				
+	
+				
+				<div class="col-md-6 col-md-offset-3">								
+				
+								
+								<div class="profile">
+				  <figure>
+					<img class="img-circle" src="assets/Pics/fc2.png" alt="Denise" />
+				  </figure>
+				  
+				  <header>
+					<h1>Denise Ho
+					  <small></small></h1>
+				  </header>
+				  
+				  <div class="toggle">
+					<input type="checkbox" class="view_details" id="view_details">
+					<label for="view_details" title="tap here to view full profile">=</label>    
+				  </div>
+				
+				  <main>
+					<dl><strong>
+					  <dt>Full name</dt>
+						<dd>Ho Wing Man Denise</dd>
+					  <dt>Date of birth</dt>
+						<dd>November 28, 1994</dd>
+					  <dt>Hometown</dt>
+						<dd>Hong Kong</dd>
+					  <dt>Occupation</dt>
+						<dd>Fresh Grad with BBA</dd>
+					  <dt><br/>Loves</dt><br/>
+						<dd>Coffee, Snacks, Food, Travelling, Photography, Sleep is good too</dd>
+					  <dt>Hates</dt>
+						<dd>Nagging, Gossip, Anger</dd>
+					  <dt>Social</dt>
+						<dd>
+							<a href="https://www.instagram.com/deniseaventador/" alt="Instagram" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							<a href="#"><i class="fa fa-twitter-square" alt="Twitter" title="Twitter" aria-hidden="true"></i></a>
+							<a href="https://www.linkedin.com/in/denise-ho-926a3912a" alt="Linkedin" title="Linkedin" aria-hidden="true"><i class="fa fa-linkedin-square"></i></a>
+							<a href="mailto:denisehwm@gmail.com" alt="Email" title="Email"><i class="fa fa-envelope-square" aria-hidden="true"></i></a>
+						  
+						</dd>
+				   </strong> </dl>
+				  </main>
+
+					</div> <!-- end profile -->
+
+
+	<!-- start mouse wrap -->
+<div class="mouse_scroll">
+	<a href="#mouse-here" class="page-scroll">
+		<div class="mouse">
+			<div class="wheel"></div>
+		</div>
+		<div>
+			<span class="m_scroll_arrows unu"></span>
+			<span class="m_scroll_arrows doi"></span>
+			<span class="m_scroll_arrows trei"></span>
+		</div>
+	</a>
+</div>
+						<!-- end mouse wrap -->
+
+				</div>
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/headerwrap -->
+	
+	<section id="about" name="about"></section>
+	<div id="aboutwrap">
+		<div id="mouse-here"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 name">
+					<img class="img-responsive" src="assets/Pics/prof.JPG">
+					<p>Denise Ho </p>
+					<div class="name-label"></div>
+										<img src="assets/Pics/cat1.gif" width="250" height="200">
+				</div><! --/col-lg-4-->
+				<div class="col-lg-8 name-desc">
+					<h2>Fresh Graduate With A BBA,<br/>Obsessive Coffee Addict & Passionate Snackaholic<br/>Born & Living In Hong Kong</h2>
+					<div class="name-zig"></div>
+					
+					<div class="col-md-6">
+						<p>Recently graduated with a Bachelor in Business Administration. 
+						I am an enthusiastic & versatile person seeking to build a successful career within the commercial field. </p>
+						
+						<p>I give strong attention to detail and a work ethic demonstrated through previous internships & experiences.</p>
+						
+						<p>My ability to work effectively within a team and thrive through challenges makes me an efficient, dependable teammate.</p>
+						
+						<p><h3>Some Of Previous Experience & Projects Consist Of: </h3><ul>
+						<li>Finance & Accounting Intern for Prada Asia Pacific Limited</li>
+						<li>Finance & Accounting Intern for Kenny KY Chan & Co.</li>
+						<li>ACCA Business Competition</li>
+						
+						</ul></p>
+						
+						
+						
+						
+					</div>
+					<div class="col-md-6">
+						<p>My passion varies from Compliance, Auditing, Accounting. I strive for efficient productivity & constant learning. 
+						I find every mistake, failure , & success as an oppurtunity to learn and become the best.</p>
+						
+						<p> Recently having graduated with a Bachelor in Business Administration.
+						I am an enthusiastic & versatile person seeking to build a successful career within the commercial field. </p>
+						
+						<hr/>
+						<strong>For more information regarding my work & experience please 
+						<a onClick="window.location.href='resume.html'" target="_blank">
+view my E-Resume						
+				<i class="fa fa-id-card" style="font-size:24px;"></i>
+				</a></strong>
+				<br/><hr/>
+				
+										<strong>However to know more about my work ethics & some of my hobbies
+						<a href="resume.html#moremee" target="_blank">
+go here						
+				<i class="fa fa-id-card" style="font-size:24px;"></i>
+				</a> Yet I recommend you to view most of my website before making any decision.</strong>
+				<hr/>
+				
+					</div>
+					
+					
+					
+					
+					
+					
+				</div><! --/col-lg-8-->
+		
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /aboutwrap -->
+	
+	<!-- ABOUT SEPARATOR -->
+	<div class="sep about" data-stellar-background-ratio="0.45"></div>
+	
+	<!-- PORTFOLIO SECTION -->
+	<section id="portfolio" name="portfolio"></section>
+	<div id="portfoliowrap">
+		<div class="container">
+			<div class="row">
+				<!--h1>Some Of My Latest Photography Work</h1>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/Pics/portfolio/img1.jpg"><img class="img-responsive" src="assets/Pics/portfolio/img1.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<!--div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/Pics/portfolio/img2.jpg"><img class="img-responsive" src="assets/Pics/portfolio/img2.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<!--div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/Pics/portfolio/img3.jpg"><img class="img-responsive" src="assets/Pics/portfolio/img3.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+			<!--/div><!-- /row -->
+	
+			<!--div class="row mt">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/Pics/portfolio/img4.jpg"><img class="img-responsive" src="assets/Pics/portfolio/img4.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<!--div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/Pics/portfolio/img5.jpg"><img class="img-responsive" src="assets/Pics/portfolio/img5.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<!--div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+	                            <div class="photo">
+	                            	<a class="fancybox" href="assets/Pics/portfolio/img6.jpg"><img class="img-responsive" src="assets/Pics/portfolio/img6.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div><br/><br/>
+				</div><!-- col-lg-4 -->
+				<!--div class="row mt centered">
+				<br/><br/>
+<h6 style="color:blue;">For more of my photography you may head to my gallery page, usually updated regularly with photos.</h6>
+			<br/>
+			<a href="photograph.html" alt="Gallery Page" title="My Photography Gallery"><i class="fa fa-picture-o" style="font-size:15px;" aria-hidden="true"></i></a>
+			</div-->
+			</div><!-- /row -->		
+		</div><!--/container -->
+		<div class="container" id="moremee">
+			<div class="row mt centered">
+			<hr/>
+				<h1>MY WORKING PROCESS        <img style="align-img:right;"src="assets/Pics/cat2.gif" width="200" height="200"></h1>
+				<hr/>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-battery-full"></i>
+					<h3>The Energy</h3>
+					<p>The energy that helps to power my <strong>Enthusiasm, Passion & Motivation</strong> comes from a heavy dependence and addiction to coffee, 
+					loads of <strong>Coffee</strong> & off course <strong>Snacks</strong></p>
+				</div>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-cogs"></i>
+					<h3>My Productivity</h3>
+					<p>
+					I tend to always keep myself productive as most days I cannot stand unproductivity.
+					Thus I make myself busy with books, small projects, random research, reading/watching the news, assisting & helpiing others, and exploring the city observantly.
+					</p>
+				</div>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-heart"></i>
+					<h3>My Passion towards Work</h3>
+					<p>
+					My productivity comes from a simple process I use to attain maximum effeciency.
+					This usually consists of produsing my basic comforts such as: comfortable seat, coffee/tea, listing down of all things neccessary categorising them as urgent & non-urgent,
+					 and then finally putting most distractions away.
+					</p> 
+				</div>
+				
+			</div><!--/row -->
+			<div class="row mt centered">
+			<hr/>
+				<h1>Hobbies</h1>
+				<hr/>
+				<div class="col-lg-4 proc"><a href="photograph.html" title="Check Out My Photography!">
+					<i class="fa fa-camera"></i></a>
+					<h3>Photography</h3>
+					<p>Photography is a main hobby of mine, a way for me get creative, and express myself through what I see in my own perspective.</p>
+
+				</div>
+				<div class="col-lg-4 proc"><a href="coffee.html" title="Check Out My Coffee Blog!">
+					<i class="fa fa-coffee"></i></a>
+					<h3>Coffee Tasting</h3>
+					<p>As you have probably realized by now I love coffee. Sometimes I love it cold & Iced on a hot summer day or hot & fresh in the morning or on a winter day. 
+					I love all kinds of coffee from americanos & espressos to lattes and cappicunnios to Turkish coffee & Italian Coffee. I am open minded when it come to coffee.
+					</p>
+					
+					</p>
+				</div>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-glass"></i>
+					<h3>Food Tasting</h3>
+					<p>I love food and snacks. I am always open minded to try new cuisines and try snacks from varies Countries|Backgrounds|Ethnicities|Regions.
+					Food is what brings people together and is always the usual common factor people relate through, whethere it is a similar chocolate bar or specific european dish
+					we all relate one way or another through food. <i style="font-size:13px" class="em em-yum"></i>
+					</p>
+				</div>
+				
+			</div><!--row -->
+			
+			<div class="row mt centered">
+			<hr/>
+				<h1>More Hobbies</h1>
+				<hr/>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-music"></i>
+					<h3>Playing Music</h3>
+					<p>
+					As long as I can remember I have played the piano with utter excitement. 
+					The sound of it sends a soothing feeling through ones ears which is difficult to match. It is definetly a grand instrument to play & listen to.
+					</p>
+				</div>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-music"></i>
+					<h3>Listening to music</h3>
+					<p>
+					When I am in public transport, walking down the road, or in the gym I have my earphones. 
+					What plays through my earphones varies widely sometimes depending on my mood, yet mostly it comes back to indie music. 
+					Listening to music puts me in my own world full of imagination, thoughts, ideas, wonder, and dreams.
+					It is a place most people go to have their alone time.
+					
+					</p>
+				
+				</div>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-plane"></i>
+					<h3>Travelling</h3>
+					<p>
+					Travelling is an amazing experience to have.
+					For me, to travel is to live, it makes me modest as it makes me realize how tiny/insignificant of a place you occupy in this world .
+					Traveling opens up my eyes to the world beyond the day to day routine one I usually sees back home. 
+					It’s so diverse, so beautiful, so full of energy, and love. You get so much out of travelling: More Experiences to Share, More Open Minded,
+					Learn About Different Cultures & Languages, Grasp Different Perspectives With More Ease, Learn Better Time Management, Teaches Me About Patience & Humbleness,
+					Better Money Management, Teaches Me How To Deal With Uncertainty, and Much More!
+					
+					<!--
+					Travelling has many benefits most of which I have experienced:
+					<i class="fa fa-wpexplorer fa-lg" ></i> More Experiences to Share.
+					<i class="fa fa-wpexplorer fa-lg" ></i> More Open Minded.
+					<i class="fa fa-wpexplorer fa-lg" ></i> Learn Different Cultures & Languages.
+					<i class="fa fa-wpexplorer fa-lg" ></i> Grasp Different Perspectives Easily.
+					<i class="fa fa-wpexplorer fa-lg" ></i> Learn Better Time Management.
+					<i class="fa fa-wpexplorer fa-lg" ></i> Teaches Patience & Humbleness.
+					<i class="fa fa-wpexplorer fa-lg" ></i> Better Money Management.
+					<i class="fa fa-wpexplorer fa-lg" ></i> Teaches How To Deal With Uncertainty.
+					
+						USE MODEAL FOR THIS PART
+					-->
+
+					</p>
+				</div>
+				
+			</div><!--/row -->
+			<hr/>
+		</div><!--/container -->
+	</div><!--/Portfoliowrap -->
+
+	<!-- PORTFOLIO SEPARATOR -->
+	<div class="sep portfolio" data-stellar-background-ratio="0.45"></div>
+	
+	
+	<! -- SERVICE SECTION -->
+	<section id="services" name="services"></section>
+	<div id="resumeee">
+	<div id="servicewrap">
+		<div class="container">
+			<div class="row">
+			
+			<div class="container">
+                <div class=".col text-center">
+
+				<hr/>
+				<a onClick="window.location.href='resume.html'" target="_blank">	
+				<i class="fa fa-id-card" style="font-size:48px;"></i><br/> <h2><strong>View My E-Resume Here</strong><h2>
+				</a>
+				<hr/>
+		
+				<a onClick="window.location.href='assets/Documents/Denise_CV.pdf'" target="_blank">	
+					<i class="fa fa-cloud-download" style="font-size:48px;"></i>
+				</a>
+				<a onClick="window.location.href='assets/Documents/Denise_CV.pdf'" target="_blank">	
+                    <h2><b>View & Download</b> My Resume Here</h2>
+				</a>	
+					
+				<hr/>
+                </div>
+            </div>
+			 </div>
+				<div class="col-lg-8-offset-2 centered">
+        
+			
+			<!--div class="row mt">
+				<div class="col-lg-3 service">
+					<i class="fa fa-star"></i><p>PREMIUM QUALITY<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-cloud"></i><p>CLOUD SERVICES<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-shield"></i><p>SECURED ACCOUNTS<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-heart"></i><p>100% SATISFACTION<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+			</div><! --/row -->
+			<!--div class="row mt">
+				<div class="col-lg-3 service">
+					<i class="fa fa-trophy"></i><p>PREMIUM QUALITY<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-globe"></i><p>CLOUD SERVICES<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-lock"></i><p>SECURED ACCOUNTS<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-thumbs-up"></i><p>100% SATISFACTION<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+			</div></row -->
+			
+		<!--/div><! --/container -->
+	<!--/div><! --/servicewrap -->
+	 
+	   
+	<div id="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 mt">
+				
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Wrapper for slides -->
+					  <!--div class="carousel-inner">
+					    <div class="item active mb centered"-->
+						<img style="align-img:right;"src="assets/Pics/cat4.gif" width="200" height="180">
+					      <h3 style="color:#005539;"><strong>Yaser Ibrahim</strong></h3>
+					      <p>My Amazing Partner, He is passionate about several industries & topics within technology.
+						  His interests range from A.I., Networking Security, Web/App Development, and Cloud Computing.
+						  </p>
+						  <p>He is also a Chocolaholic, a Coffee Addict(JUST LIKE ME!),
+						  and also has a lovely open-mind giving him the motive to learn & embrace Different Cultures/Languages.</p>
+					     <div class="carousel-inner"> 
+						 <div class="item active mb centered">
+						 <p><img class="img-circle" src="assets/Pics/123me.png" height="100" width="120"></p>
+						 </div>
+						 <div class="item mb centered">
+						 <p><img class="img-circle" src="assets/Pics/us1.png" height="100" width="120"></p>
+						 </div>
+						 <div class="item mb centered">
+						 <p><img class="img-circle" src="assets/Pics/us2.png" height="100" width="120"></p>
+						 </div>
+						 <div class="item mb centered">
+						 <p><img class="img-circle" src="assets/Pics/us3.png" height="100" width="120"></p>
+						 </div>
+						 <div class="item mb centered">
+						 <p><img class="img-circle" src="assets/Pics/123me.png" height="100" width="120"></p>
+						 </div>
+						 </div>
+						 
+						 <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+					  </ol>
+						 
+						 
+						 <center>
+						 
+						 			<a href="https://www.linkedin.com/in/yaser-ibrahim-57963884/" alt="Linkedin" title="Linkedin"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+									<a href="https://twitter.com/curlycoffee3808" alt="twitter" title="Twitter"><i class="fa fa-twitter fa-2x"></i></a>
+									<a href="mailto:yaser808@gmail.com" alt="Email" title="Email"><i class="fa fa-envelope fa-2x"></i></a>
+									<a href="https://yessur3808.github.io/curly/" alt="Personal Website" title="Personal Website"><i class="fa fa-address-card fa-2x"></i></a>
+						 </center>
+						 
+						 <!--/div>
+					    </div-->
+
+					    <!--div class="item mb centered">
+					      <h3>PAUL LEVINGSTON</h3>
+					      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					      <p><img class="img-circle" src="assets/img/pic-t2.jpg" width="80"></p>
+					    </div-->
+
+					    <!--div class="item mb centered">
+					      <h3>LUCY LENNIN</h3>
+					      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					      <p><img class="img-circle" src="assets/img/pic-t3.jpg" width="80"></p>
+					    </div-->
+
+					  <!--/div>
+					  <!-- Indicators -->
+					  <!--ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+					  </ol-->
+					</div>
+					  
+				</div><! --/col-lg-8 -->
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/testimonials -->
+	</div>
+	</div>
+	</div>
+	</div>
+	<! -- SERVICE SECTION -->
+
+	<section id="contact" name="contact"></section>
+	<! -- CONTACT SEPARATOR -->
+	<div class="sep contact" data-stellar-background-ratio="0.45"></div>
+	<div id="contactwrap">
+		<div class="container">
+			<div clasus="row">
+				<div class="col-lg-6">
+					<p><u><h1 style="font-color:white;">Contact Me</h1></u></p>
+					<p></p>
+					<p>
+						<small>Kornhill, 35 Hong Yue Street,<br/>
+						Quarry Bay,<br/>
+						Hong Kong</small>
+					</p>
+					<p>
+						<small> <!--Phone No.   +852 6629 7896<br/-->
+						Email me @.  <br/> <a href="mailto:denisehwm@gmail.com"><span class="glyphicon glyphicon-envelope"></span> denisehwm</a><br/>
+					</p>
+				<img style="align-img:right;"src="assets/Pics/pusheen2.gif" width="220" height="210">
+				</div>
+				<h4 style="color:red;">Form Currently Unavailable.</h4>
+				<h5 style="color:red;">Please contact me through direct email preferrably if needed, Thank You.</h5>
+				<h5 style="color:red;">I apologise for any inconvenience, Have a good day.  <i class="em em-smile"></i></h5>
+				<div class="col-lg-6">
+					<form role="form" id="contact-form" method="post" action="assets/php/contact.php" role="form"> 
+					<div class="messages"></div>
+					
+					
+					<div class="controls">
+					
+					
+					  <div class="form-group">
+					  
+					  
+					    <label for="exampleInputName1">Your Name</label>
+					    <input id="form_name" type="text" name="name" class="form-control"  placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+						<div class="help-block with-errors"></div>
+						
+											
+							<label for="form_email">Email address</label>		
+							<input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+							 <div class="help-block with-errors"></div>
+						
+						
+					    <label for="form_message">Message *</label>
+					    <textarea id="form_message" name="message"  class="form-control" rows="5" placeholder="Message for me *" required="required" data-error="Please,leave us a message."></textarea>
+						 <div class="help-block with-errors"></div>
+						
+					  </div>
+					  
+					  
+					  <button type="submit" class="btn btn-default" value="Send message">Submit</button>
+					  	<br/><br/><br/>
+					</form>
+				</div>
+			
+			</div><! --/row -->
+		</div>	
+		
+		
+		
+
+		
+		
+			
+			
+	<div class="container">
+		<div class="row">
+			<div class="sectiontitle">
+		
+				<h1>Projects statistics  <i class="fa fa-bar-chart" aria-hidden="true"></i></h1>
+				<span class="headerLine"></span>
+			</div>
+			<div id="projectFacts" class="sectionClass">
+				<div class="fullWidth eight columns">
+					<div class="projectFactsWrap ">
+						<div class="item wow fadeInUpBig animated animated" data-number="12" style="visibility: visible;">
+							<i class="fa fa-briefcase"></i>
+							<p id="number1" class="number">32</p>
+							<span></span>
+							<p>Case Studies Done</p>
+						</div>
+						<div class="item wow fadeInUpBig animated animated" data-number="55" style="visibility: visible;">
+							<i class="fa fa-smile-o"></i>
+							<p id="number2" class="number">30</p>
+							<span></span>
+							<p>Happy clients</p>
+						</div>
+						<div class="item wow fadeInUpBig animated animated" data-number="359" style="visibility: visible;">
+							<i class="fa fa-coffee"></i>
+							<p id="number3" class="number">359</p>
+							<span></span>
+							<p>Cups of coffee</p>
+						</div>
+						<div class="item wow fadeInUpBig animated animated" data-number="246" style="visibility: visible;">
+							<i class="fa fa-camera"></i>
+							<p id="number4" class="number">246</p>
+							<span></span>
+							<p>Photos taken</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
+			<hr/>
+			
+			
+			
+			
+			
+		</div><!-- /container -->
+	</div>
+
+		
+  <!-- Footer -->
+    <footer>
+
+        <div class="container text-center">
+            <p>Copyright &copy; Denise Ho's Website 2017</p>
+        </div>
+    </footer>
+	</div>
+	</div>
+	
+	
+	
+	
+	
+	
+
+        
+		<script type="text/javascript">
+		smoothScroll.init({
+			speed: 1000,
+			easing: 'easeInOutCubic',
+			offset: 0,
+			updateURL: true,
+			callbackBefore: function ( toggle, anchor ) {},
+			callbackAfter: function ( toggle, anchor ) {}
+		});
+	</script> 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87337945-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-87337945-2');
+</script>
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87337945-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/fancybox/jquery.fancybox.js"></script>    
+	<script src="assets/js/main.js"></script>
+		<script>
+		$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 40
+			});
+		});
+		</script>
+		
+		<script type="text/javascript">
+      $(function() {
+        //    fancybox
+          jQuery(".fancybox").fancybox();
+      });
+	   </script>
+
+	
+  </body>
+</html>

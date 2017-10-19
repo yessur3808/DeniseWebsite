@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta http-equiv="X-UA-Compatible" content="text/html; charset=utf-8" />
+	<meta name="author" content="Denise Ho" />
+	<meta property="og:title" content="Denise Ho | Fresh Grad BBA" />
+	<meta name ="viewport" content="width-device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-title" content="Denise Ho's Resume">
+	<meta name="application-name" content="Denise Ho's Resume">
+	<link rel="shortcut icon" href="assets/Pics/logo_icon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="asset/Pics/fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="asset/Pics/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="asset/Pics/fav/favicon-16x16.png">
+<link rel="manifest" href="asset/Pics/fav/manifest.json">
+<link rel="mask-icon" href="asset/Pics/fav/safari-pinned-tab.svg" color="#8e0091">
+<meta name="apple-mobile-web-app-title" content="Denise Ho's Resume">
+<meta name="application-name" content="Denise Ho's Resume">
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="theme-color" content="#f2cdff">
+    <title>Denise Ho | Photographer</title>    
+	
+	
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+	<link href="assets/grid/gallery-grid.css" rel="stylesheet">
+
+
+		<style  type="text/css">
+		@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+		
+		header.masthead {
+			  margin: auto;
+			  width: 77%;
+			  position: relative;
+			  min-height: auto;
+			  background-image: url("assets/Pics/head2.jpg");
+			  background-position: center;
+			  -webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  -o-background-size: cover;
+			  background-size: cover; 
+			  }
+  
+  
+  
+  header.masthead .header-content {
+    position: relative;
+    width: 100%;
+	margin: auto;
+    text-align: center; 
+	}
+	
+	
+	
+    header.masthead .header-content .header-content-inner h1 {
+	text-align: center;
+	color: #f8f8f8;
+      position: relative;
+	  width: 100%;
+	  margin: auto;
+	  font-size: 40px;
+      font-weight: 750;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-transform: uppercase; }
+	  
+    header.masthead .header-content .header-content-inner hr {
+	color: #fff;
+background-color: #fff;
+height: 1.6px;
+	position: relative;
+ }
+	  
+    header.masthead .header-content .header-content-inner p {
+      font-size: 22px;
+	  text-align: justify; 
+      font-weight: 300;
+      margin-bottom: 50px;
+      color: rgba(255, 255, 255, 0.95); }
+	  
+  @media (min-width: 768px) {
+    header.masthead {
+      height: 100%;
+      min-height: 600px; }
+      header.masthead .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        header.masthead .header-content .header-content-inner {
+          max-width: 1000px;
+          margin-right: auto;
+          margin-left: auto; }
+          header.masthead .header-content .header-content-inner h1 {
+            font-size: 50px; }
+          header.masthead .header-content .header-content-inner p {
+            font-size: 18px;
+            max-width: 80%;
+            margin-right: auto;
+            margin-left: auto; } }
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+	.menu {
+  cursor: pointer;
+  padding: 15px;
+  max-height: 100%;
+  overflow: hidden;
+
+}
+
+.menu .line {
+  height: 4px;
+  display: block;
+  width: 40px;
+  background: #222222;
+
+  box-shadow: 0 1px 6px #000;
+  margin: 10px;
+  opacity: 1;
+  transition: all 500ms ease;
+
+}
+
+.menu.active .line:nth-child(1) {
+  height: 1000px; 
+  background: #C3D3E1;
+  width: 200px;
+  margin: -20px;
+  box-shadow: 0 0 0 rgba(1, 1, 1, 0);
+}
+
+.menu.active .line:nth-child(2),
+.menu.active .line:nth-child(3) {
+  opacity: 0;
+}
+
+.nav {
+  padding: 12px;
+}
+
+.menu:not(.active) .nav li {
+  opacity: 0;
+  margin-bottom: -10px;
+}
+
+.menu .nav li {
+  opacity: 1;
+  font-size: 18px;
+  font-weight: 300;
+  font-color:#390000 ;
+  margin-bottom: 2px;
+  transition: opacity 500ms ease, margin-bottom 500ms ease, padding-left 250ms ease;
+}
+
+.menu .nav li:hover {
+  padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+#container {
+  text-align: center;
+  margin: 100px auto;
+}
+
+#image {
+  width: 80%;
+  height: 80%;
+  text-align: center;
+  border: 1px solid black;
+  transition: 1s all;
+  -webkit-transition: 1s all;
+}
+
+#image:hover {
+  cursor: pointer;
+  border-radius: 100%;
+}
+		
+		
+		
+		
+		
+		.font--cabin {
+  font-family: 'Cabin', Arial, sans-serif;
+  font-weight: 400;
+}
+
+
+
+.font--blippo {
+  font-family: 'Blippo', Georgia, serif;
+  font-weight: 400;
+  text-shadow:  2px 2px #fff;
+}
+
+
+
+
+
+td a + a {
+
+   padding-left: 3em;
+
+} 
+
+
+
+#footer {
+   position:absolute;
+   bottom:0;
+   left:2%;
+   width:100%;
+   height:50px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+button.back-to-top{
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #fff;
+	height: 0px;
+  width: 0px;
+  overflow: hidden;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+  color: transparent;
+	clear: both;
+  visibility: hidden;
+  position: fixed;
+  cursor: pointer;
+  display: block;
+  border: none;
+  right: 50px;
+	bottom: 75px;
+  font-size: 0px;
+  outline: 0 !important;
+  z-index: 99;
+  transition: all .3s ease-in-out;
+}
+button.back-to-top:hover,
+button.back-to-top:active,
+button.back-to-top:focus,{
+  outline: 0 !important;
+}
+button.back-to-top::before {
+  content: "\f077";
+  font-family: "FontAwesome";
+  display: block;
+  vertical-align: middle;
+  margin: -5px 0 auto;
+}
+button.back-to-top.show {
+  display: block;
+  background: #fff;
+  color: #00ab6c;
+  font-size: 25px;
+  right: 25px;
+	bottom: 50px;
+  height: 50px;
+  width: 50px;
+  visibility: visible;
+	box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.25);
+}
+button.back-to-top.show:active {
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+
+		</style>
+		
+		
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+				<script type="text/javascript">
+			$('img').mousedown(function (e) {
+				  if(e.button == 2) {return false; }
+			}
+		</script>
+		
+		</head>
+		
+		
+		
+		<body>
+		
+<button class="back-to-top" type="button"></button>
+		
+
+		
+		<header class="masthead">
+		
+
+		
+		
+		
+		
+<div class="menu">
+  <i class="line">
+    <ul class="nav">
+	<li><i class="fa fa-bars fa-2x" aria-hidden="true"></i></li>
+
+	
+	<a href="index.html#home">
+		<img src="assets/Pics/denise02.png" alt="" id="image" />
+	</a>
+		
+      <li><a href="index.html#home"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
+    <li><a href="index.html#contactwrap"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Contact Me</a></li>
+		<li><a href="resume.html"><i class="fa fa-id-card fa-lg" aria-hidden="true"></i> E-Resume</a></li>
+	<li><a href="index.html#resumeee"><i class="fa fa fa-tasks fa-lg"></i>  Resume</a></li>
+	<li><a href="coffee.html"><i class="fa fa-coffee fa-lg" aria-hidden="true"></i> Coffee Blog</a></li>
+    </ul>
+  </i><i class="line"></i><i class="line"></i>
+</div>
+</div>
+
+	
+       <div class="header-content">
+        <div class="header-content-inner">
+		<br/><br/><br/>
+          <h1 class="font--blippo" id="homeHeading"><strong>Denise Ho</strong></h1>
+          <hr class="font--blippo" align="center" width="90%"  size="40">
+          <p><strong>Photography </strong>is one of my main hobbies, 
+		  it is a way for me get in touch with my creativity, 
+		  and to vibrantly express myself through what I see<strong> in my own perspective.</strong></p>
+        </div>
+      </div>
+    </header>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<div class="container gallery-container">
+<h1>My Gallery</h1>
+
+    <p class="page-description text-center">Canada, Hong Kong, Japan..</p>
+    		<a href="#access-photos">
+			<h4 class="text-center" style="color:#008FC0; font-size:14px;">If you would like to access the original photos or inquire on them please contact me via email.
+			Thank you!<br/><i class="material-icons" style="font-size:60px;">image</i></h4>
+			</a>
+    <div class="tz-gallery">
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img1.jpg">
+                    <img src="assets/Pics/photography/img1.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img2.jpg">
+                    <img src="assets/Pics/photography/img2.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img3.jpg">
+                    <img src="assets/Pics/photography/img3.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img4.jpg">
+                    <img src="assets/Pics/photography/img4.jpg" alt="">
+                </a>
+            </div>
+ 
+           <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img7.jpg">
+                    <img src="assets/Pics/photography/img7.jpg" alt="">
+                </a>
+            </div>
+     
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img9.jpg">
+                    <img src="assets/Pics/photography/img9.jpg" alt="">
+                </a>
+            </div>
+			            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img10.jpg">
+                    <img src="assets/Pics/photography/img10.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img11.jpg">
+                    <img src="assets/Pics/photography/img11.jpg" alt="">
+                </a>
+            </div>
+                        <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img12.jpg">
+                    <img src="assets/Pics/photography/img12.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img13.jpg">
+                    <img src="assets/Pics/photography/img13.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img14.jpg">
+                    <img src="assets/Pics/photography/img14.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img15.jpg">
+                    <img src="assets/Pics/photography/img15.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img16.jpg">
+                    <img src="assets/Pics/photography/img16.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img17.jpg">
+                    <img src="assets/Pics/photography/img17.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img18.jpg">
+                    <img src="assets/Pics/photography/img18.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img19.jpg">
+                    <img src="assets/Pics/photography/img19.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img20.jpg">
+                    <img src="assets/Pics/photography/img20.jpg" alt="">
+                </a>
+            </div>
+			            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img21.jpg">
+                    <img src="assets/Pics/photography/img21.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img22.jpg">
+                    <img src="assets/Pics/photography/img22.jpg" alt="">
+                </a>
+            </div>
+			<div  class="col-sm-6 col-md-4">
+			                <a class="lightbox" href="assets/Pics/photography/img23.jpg">
+                    <img src="assets/Pics/photography/img23.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img24.jpg">
+                    <img src="assets/Pics/photography/img24.jpg" alt="">
+                </a>
+            </div>
+                        <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img25.jpg">
+                    <img src="assets/Pics/photography/img25.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img26.jpg">
+                    <img src="assets/Pics/photography/img26.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img27.jpg">
+                    <img src="assets/Pics/photography/img27.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img28.jpg">
+                    <img src="assets/Pics/photography/img28.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img29.jpg">
+                    <img src="assets/Pics/photography/img29.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img30.jpg">
+                    <img src="assets/Pics/photography/img30.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img31.jpg">
+                    <img src="assets/Pics/photography/img31.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img32.jpg">
+                    <img src="assets/Pics/photography/img32.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img33.jpg">
+                    <img src="assets/Pics/photography/img33.jpg" alt="">
+                </a>
+            </div>
+			            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img34.jpg">
+                    <img src="assets/Pics/photography/img34.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img35.jpg">
+                    <img src="assets/Pics/photography/img35.jpg" alt="">
+                </a>
+            </div>
+			      <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img36.jpg">
+                    <img src="assets/Pics/photography/img36.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img37.jpg">
+                    <img src="assets/Pics/photography/img37.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img38.jpg">
+                    <img src="assets/Pics/photography/img38.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img39.jpg">
+                    <img src="assets/Pics/photography/img39.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img40.jpg">
+                    <img src="assets/Pics/photography/img40.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img41.jpg">
+                    <img src="assets/Pics/photography/img41.jpg" alt="">
+                </a>
+            </div>
+			            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img42.jpg">
+                    <img src="assets/Pics/photography/img42.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img43.jpg">
+                    <img src="assets/Pics/photography/img43.jpg" alt="">
+                </a>
+            </div>
+			 <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img45.jpg">
+                    <img src="assets/Pics/photography/img45.jpg" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img46.jpg">
+                    <img src="assets/Pics/photography/img46.jpg" alt="">
+                </a>
+            </div>
+			            <div >
+                <a class="lightbox" href="assets/Pics/photography/img44.jpg">
+                    <img src="assets/Pics/photography/img44.jpg" alt="">
+                </a>
+            </div>
+           
+	  <!--long--> 		            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img47.jpg">
+                    <img src="assets/Pics/photography/img47.jpg" alt="">
+                </a>
+            </div>
+
+    <!--long-->           <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img6.jpg">
+                    <img src="assets/Pics/photography/img6.jpg" alt="">
+                </a>
+            </div>
+			 <!--long-->         <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="assets/Pics/photography/img8.jpg">
+                    <img src="assets/Pics/photography/img8.jpg" alt="">
+                </a>
+            </div>
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+  
+					
+					 <div class="col-sm-6 col-md-4">
+        <div class="container text-center">
+		<br/>
+		<p style="color:#FF0000; text-align:center; font-size:14px;">___________________________________________________________________________________________________</p>
+		<h4 style="color:#FF0000; font-size:14px;">If you would like to access the original photos or inquire on them please contact me via email. Thank you!</h4>
+			<a href="mailto:denisehwm@gmail.com" id="access-photos" alt="Email" title="My Email"><i class="fa fa-envelope fa-2x"></i></a>
+			<p style="color:#C00000 color:#FF0000; text-align:center; font-size:14px;">___________________________________________________________________________________________________</p>
+        </div>
+
+    </div>
+
+	
+	
+	
+	
+
+    </div>
+	
+	
+	</div>
+
+	<footer style=" font-size:10px;" >
+        <div class="container text-center">
+            <p>Copyright &copy; Denise Ho's Website 2017</p>
+        </div>
+    </footer>
+	
+	</div>
+
+	
+	
+	
+	
+	
+	
+	
+  <script type="text/javascript">
+		// Back to top
+var amountScrolled = 200;
+var amountScrolledNav = 25;
+
+$(window).scroll(function() {
+  if ( $(window).scrollTop() > amountScrolled ) {
+    $('button.back-to-top').addClass('show');
+  } else {
+    $('button.back-to-top').removeClass('show');
+  }
+});
+
+$('button.back-to-top').click(function() {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 800);
+  return false;
+});
+
+// Ignore this
+// This is just for content manipulation
+var skeleton = '<div class="skeleton"><div class="skeleton-wrapper"><div class="skeleton-wrapper-inner"><div class="skeleton-wrapper-body"><div class="skeleton-avatar"></div><div class="skeleton-author"></div><div class="skeleton-label"></div><div class="skeleton-content-1"></div><div class="skeleton-content-2"></div><div class="skeleton-content-3"></div></div></div></div></div>';
+for(var i=0;i<10;i++){
+  $('#content').append(skeleton); 
+}
+
+// Add waves effect
+Waves.attach('button.back-to-top', 'waves-effect');
+Waves.init();
+  </script>
+  
+	
+	
+	
+	
+	
+			<script type="text/javascript">
+		$(document).ready(function() {
+  $(".menu").click(function(){
+    $(this).toggleClass("active");
+  }); 
+});
+		
+		</script>
+
+	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87337945-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-87337945-2');
+</script>
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87337945-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+		</body>
+		
+		</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://ww.w3.org/TR/xhtml1-transitional.dtd">
+<html lang="en">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Denise Ho" />
+	<meta property="og:title" content="Denise Ho | Fresh Grad BBA" />
+	<meta name =="viewport" content="width-device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-title" content="Denise Ho's Resume">
+	<meta name="application-name" content="Denise Ho's Resume">
+		<link rel="shortcut icon" href="assets/Pics/logo_icon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="asset/Pics/fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="asset/Pics/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="asset/Pics/fav/favicon-16x16.png">
+<link rel="manifest" href="asset/Pics/fav/manifest.json">
+<link rel="mask-icon" href="asset/Pics/fav/safari-pinned-tab.svg" color="#8e0091">
+<meta name="apple-mobile-web-app-title" content="Denise Ho's Resume">
+<meta name="application-name" content="Denise Ho's Resume">
+<meta name="theme-color" content="#f2cdff">
+
+    <title>Denise Ho | Coffee Addict</title>
+	
+	<style type="text/css">
+
+	</style>
+	
+	
+	
+	
+<!----------------------------------------------------CSS & Text--------------------------------------------------------------------------------->
+
+
+<link href="assets/css/coffee.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+	<!----------------------------------------------------JS & JQuery--------------------------------------------------------------------------------->
+	 <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	
+	
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	
+	
+	<script type="text/javascript">
+	(function() {
+
+
+}).call(this);
+	</script>
+	
+	
+	
+	
+	
+	
+	
+	
+	</head>
+	
+	
+	<body >
+	
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
+	
+	
+	<div class="container">
+		<div id="user">
+</div>
+	
+	<a href="#menu" id="toggle"><span></span></a>
+
+<div id="menu">
+  <ul>
+    <li><a href="index.html#home"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home Page</a></li>
+    <li><a href="index.html#about"><i class="fa fa-user-circle fa-lg" aria-hidden="true"></i> About</a></li>
+    <li><a href="index.html#contactwrap"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Contact</a></li>
+		<li><a href="resume.html"><i class="fa fa-id-card fa-lg" aria-hidden="true"></i> E-Resume</a></li>
+	<li><a href="index.html#resumeee"><i class="fa fa fa-tasks fa-lg"></i>  Resume</a></li>
+	<li><a href="photograph.html">Gallery</a></li>
+  </ul>
+</div>
+</div>
+
+	<br/>
+	<img src="" title="Look at me! I am Minnie Mouse!!!" alt=""/>
+	
+<div class="title">
+  <div class="title-word">Denise Ho's</div>
+  <div class="title-word">Coffee Blog</div>
+  <div class="title-word">Coming Soon..<img src="assets/Pics/loadcat.gif" alt="Loading..."> </div>
+</div>
+ 
+	
+	<div class="cup"><strong># Coffee</strong>
+  <div class="coffee"></div>
+</div>
+	
+	<script type="text/javascript">
+	// PreLoader
+jQuery.noConflict();
+(function($) {
+	$(window).on('load', function() { // makes sure the whole site is loaded
+		$('#status').fadeOut(); // will first fade out the loading animation
+		$('#preloader').delay(500).fadeOut('slow'); // will fade out the white DIV that covers the website.
+	});
+})(jQuery);
+
+// Scroll to Top
+jQuery.noConflict();
+(function($) {
+	$(window).scroll(function() {
+		if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
+			$('#return-to-top').fadeIn(200); // Fade in the arrow
+		} else {
+			$('#return-to-top').fadeOut(200); // Else fade out the arrow
+		}
+	});
+	$('#return-to-top').click(function() { // When arrow is clicked
+		$('body,html').animate({
+			scrollTop: 0 // Scroll to top of body
+		}, 500);
+	});
+})(jQuery);
+
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+jQuery.noConflict();
+(function($) {
+	$(function() {
+		$('a.page-scroll').bind('click', function(event) {
+			var $anchor = $(this);
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1500, 'easeInOutExpo');
+			event.preventDefault();
+		});
+	});
+})(jQuery);
+
+// typer for hello
+window.onload = function() {
+	var elements = document.getElementsByClassName('txt-rotate');
+	for (var i = 0; i < elements.length; i++) {
+		var toRotate = elements[i].getAttribute('data-rotate');
+		var period = elements[i].getAttribute('data-period');
+		if (toRotate) {
+			new TxtRotate(elements[i], JSON.parse(toRotate), period);
+		}
+	}
+	// INJECT CSS
+	var css = document.createElement("style");
+	css.type = "text/css";
+	css.innerHTML = ".txt-rotate > .wrap { border-right: 10px solid #40E0D0 }";
+	document.body.appendChild(css);
+};
+
+var TxtRotate = function(el, toRotate, period) {
+	this.toRotate = toRotate;
+	this.el = el;
+	this.loopNum = 0;
+	this.period = parseInt(period, 1) || 1000;
+	this.txt = '';
+	this.tick();
+	this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+	var i = this.loopNum % this.toRotate.length;
+	var fullTxt = this.toRotate[i];
+
+	if (this.isDeleting) {
+		this.txt = fullTxt.substring(0, this.txt.length - 1);
+	} else {
+		this.txt = fullTxt.substring(0, this.txt.length + 1);
+	}
+
+	this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+	var that = this;
+	var delta = 200 - Math.random() * 100;
+
+	if (this.isDeleting) {
+		delta /= 2;
+	}
+
+	if (!this.isDeleting && this.txt === fullTxt) {
+		delta = this.period;
+		this.isDeleting = true;
+	} else if (this.isDeleting && this.txt === '') {
+		this.isDeleting = false;
+		this.loopNum++;
+		delta = 200;
+	}
+
+	setTimeout(function() {
+		that.tick();
+	}, delta);
+};
+
+// number count for stats
+jQuery.noConflict();
+(function($) {
+	$('.counter').each(function() {
+		var $this = $(this),
+			countTo = $this.attr('data-count');
+
+		$({
+			countNum: $this.text()
+		}).animate({
+				countNum: countTo
+			},
+
+			{
+				duration: 3000,
+				easing: 'linear',
+				step: function() {
+					$this.text(Math.floor(this.countNum));
+				},
+				complete: function() {
+					$this.text(this.countNum);
+					//alert('finished');
+				}
+			});
+	});
+})(jQuery);
+
+// update footer copyright year
+
+var today = new Date();
+var year = today.getFullYear();
+
+var copyright = document.getElementById("copyright");
+copyright.innerHTML = '© Marina Marques '+ year;
+	
+	</script>
+	
+	
+<script type="text/javascript">
+var theToggle = document.getElementById('toggle');
+
+// based on Todd Motto functions
+// https://toddmotto.com/labs/reusable-js/
+
+// hasClass
+function hasClass(elem, className) {
+	return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+}
+// addClass
+function addClass(elem, className) {
+    if (!hasClass(elem, className)) {
+    	elem.className += ' ' + className;
+    }
+}
+// removeClass
+function removeClass(elem, className) {
+	var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+	if (hasClass(elem, className)) {
+        while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+            newClass = newClass.replace(' ' + className + ' ', ' ');
+        }
+        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+    }
+}
+// toggleClass
+function toggleClass(elem, className) {
+	var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+    if (hasClass(elem, className)) {
+        while (newClass.indexOf(" " + className + " ") >= 0 ) {
+            newClass = newClass.replace( " " + className + " " , " " );
+        }
+        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+    } else {
+        elem.className += ' ' + className;
+    }
+}
+
+theToggle.onclick = function() {
+   toggleClass(this, 'on');
+   return false;
+}
+</script>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87337945-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-87337945-2');
+</script>
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87337945-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	
+	
+	
+	 
+	<footer>
+
+        <div id="footer" class="container text-center">
+		<hr/>
+            <p>Copyright &copy; Denise Ho's Website 2017</p>
+        </div>
+    </footer>
+	
+	
+	
+	</body>
+	
+	
+	
+	</html>

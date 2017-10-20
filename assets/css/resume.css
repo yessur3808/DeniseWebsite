@@ -60,23 +60,26 @@ a {
 }
 @media (max-width: 850px) {
   .profile {
-    width: 40%
+background: #DADADA;
+   width: 100%;
+  float: left;
+  color: #9099a0;
+   
   }
-	@media (max-width: 1400){
-  .profile {
-    width: 40%;
-  }
+
 }
 .profile .name-wrapper {
   float: left;
   width: 60%;
 	
-	@media (max-width: 850px) {
+@media (max-width: 850px) {
   .profile .name-wrapper {
+	   float: left;
     width: 60%
   }
-	@media (max-width: 1400){
+@media (max-width: 1400){
   .profile {
+	   float: left;
     width: 60%;
   }
 	
@@ -92,18 +95,16 @@ a {
   padding-top: 40px;
 }
 		
-@media (max-width: 1500px) {
-  .profile h1 {
-    padding-top: 20px;
-  }
-@media (max-width: 1200px) {
-  .profile h1 {
-    padding-top: 20px;
-  }
+
 
 @media (max-width: 800px) {
   .profile h1 {
-	  font-size: 2.2em;
+	  font-size: 1.8em;
+  padding-top: 20px;
+font-family: 'Varela Round', sans-serif;
+  color: #4a4e51;
+  text-transform: uppercase;
+  line-height: 1em;
     padding-top: 20px;
   }
 }
@@ -121,22 +122,25 @@ a {
   display: block;
   float: left;
 }
-@media (max-width: 1500px) {
-  .profile .picture-resume-wrapper {
-    width: 40%;
-  }
+
 @media (max-width: 1200px) {
   .profile .picture-resume-wrapper {
+display: block;
+  float: left;
     width: 40%;
   }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .profile .picture-resume-wrapper {
+	    display: block;
+  float: left;
     width: 40%;
   }
 				
 @media (max-width: 500px) {
   .profile .picture-resume-wrapper {
+	    display: block;
+  float: left;
     width: 40%;
   }
 }
@@ -162,33 +166,18 @@ a {
   border-radius: 50%;
   width: 130px;
 }
-@media (max-width: 1500px) {
-  .profile .picture-resume img {
-       width: 150px;
-    height: 150px;
-  }
 
-@media (max-width: 800px) {
+
+@media (max-width: 850px) {
   .profile .picture-resume img {
-    width: 65px;
+    width: 60px;
   }
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .profile .picture-resume img {
-    width: 65px;
+    width: 48px;
   }
 }
-@media (max-width: 1200px) {
-  .profile .picture-resume img {
-    width: 120px;
-    height: 120px;
-  }
-}
-@media (max-width: 1500px) {
-  .profile .picture-resume {
-    width: 150px;
-    height: 150px;
-  }
-}
+
 @media (max-width: 1200px) {
   .profile .picture-resume {
     width: 200px;
@@ -205,18 +194,17 @@ a {
   margin-top: 100px;
   font-weight: 300;
 }
-@media (max-width: 1500px) {
+
+@media (max-width: 850px) {
   .profile .contact-info {
-    margin-top: 75px;
-  }
-@media (max-width: 1200px) {
-  .profile .contact-info {
-    margin-top: 70px;
+    margin-top: 80px;
+	 font-weight: 250;
   }
 }
 @media (max-width: 450px) {
   .profile .contact-info {
     margin-top: 50px;
+	   font-weight: 220;
   }
 }
 .profile .list-titles {
@@ -272,17 +260,27 @@ a {
   min-height: 100%;
   min-height: 100vh;
 }
-@media (max-width: 1500px) {
-  .experience {
-    width: 60%;
-  }
 @media (max-width: 1200px) {
   .experience {
-    width: 60%;
+ background: #3d3e42;
+  width: 60%;
+  float: left;
+  position: relative;
+  color: #9099a0;
+  font-weight: 300;
+  min-height: 100%;
+  min-height: 100vh;
   }
 @media (max-width: 850px) {
   .experience {
-    width: 60%;
+  background: #3d3e42;
+  width: 60%;
+  float: left;
+  position: relative;
+  color: #9099a0;
+  font-weight: 300;
+  min-height: 100%;
+  min-height: 100vh;
   }
 }
 .experience h3.experience-title {

@@ -295,7 +295,7 @@ label {
 #status {
 	width: 200px;
 	height: 200px;
-	position: absolute;
+	position: relative;
 	left: 50%;
 	top: 50%;
 	background-image: url(../Pics/Infinity.gif);

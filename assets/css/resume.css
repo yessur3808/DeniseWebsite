@@ -60,30 +60,12 @@ a {
 }
 @media (max-width: 850px) {
   .profile {
-background: #DADADA;
-   width: 100%;
-  float: left;
-  color: #9099a0;
-   
+    width: 100%;
   }
-
 }
 .profile .name-wrapper {
   float: left;
   width: 60%;
-	
-@media (max-width: 850px) {
-  .profile .name-wrapper {
-	   float: left;
-    width: 60%
-  }
-@media (max-width: 1400){
-  .profile {
-	   float: left;
-    width: 60%;
-  }
-	
-	
 }
 .profile h1 {
   font-size: 2.5em;
@@ -94,17 +76,8 @@ background: #DADADA;
   line-height: 1em;
   padding-top: 40px;
 }
-		
-
-
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   .profile h1 {
-	  font-size: 1.8em;
-  padding-top: 20px;
-font-family: 'Varela Round', sans-serif;
-  color: #4a4e51;
-  text-transform: uppercase;
-  line-height: 1em;
     padding-top: 20px;
   }
 }
@@ -122,26 +95,9 @@ font-family: 'Varela Round', sans-serif;
   display: block;
   float: left;
 }
-
 @media (max-width: 1200px) {
   .profile .picture-resume-wrapper {
-display: block;
-  float: left;
-    width: 40%;
-  }
-
-@media (max-width: 850px) {
-  .profile .picture-resume-wrapper {
-	    display: block;
-  float: left;
-    width: 40%;
-  }
-				
-@media (max-width: 500px) {
-  .profile .picture-resume-wrapper {
-	    display: block;
-  float: left;
-    width: 40%;
+    width: 100%;
   }
 }
 .profile .picture-resume {
@@ -166,18 +122,23 @@ display: block;
   border-radius: 50%;
   width: 130px;
 }
-
-
-@media (max-width: 850px) {
+@media (max-width: 1500px) {
   .profile .picture-resume img {
-    width: 60px;
-  }
-@media (max-width: 650px) {
-  .profile .picture-resume img {
-    width: 48px;
+    width: 80px;
   }
 }
-
+@media (max-width: 1200px) {
+  .profile .picture-resume img {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media (max-width: 1500px) {
+  .profile .picture-resume {
+    width: 150px;
+    height: 150px;
+  }
+}
 @media (max-width: 1200px) {
   .profile .picture-resume {
     width: 200px;
@@ -194,17 +155,14 @@ display: block;
   margin-top: 100px;
   font-weight: 300;
 }
-
-@media (max-width: 850px) {
+@media (max-width: 1200px) {
   .profile .contact-info {
-    margin-top: 80px;
-	 font-weight: 250;
+    margin-top: 70px;
   }
 }
 @media (max-width: 450px) {
   .profile .contact-info {
     margin-top: 50px;
-	   font-weight: 220;
   }
 }
 .profile .list-titles {
@@ -260,27 +218,9 @@ display: block;
   min-height: 100%;
   min-height: 100vh;
 }
-@media (max-width: 1200px) {
-  .experience {
- background: #3d3e42;
-  width: 60%;
-  float: left;
-  position: relative;
-  color: #9099a0;
-  font-weight: 300;
-  min-height: 100%;
-  min-height: 100vh;
-  }
 @media (max-width: 850px) {
   .experience {
-  background: #3d3e42;
-  width: 60%;
-  float: left;
-  position: relative;
-  color: #9099a0;
-  font-weight: 300;
-  min-height: 100%;
-  min-height: 100vh;
+    width: 100%;
   }
 }
 .experience h3.experience-title {

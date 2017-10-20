@@ -458,7 +458,7 @@ background: linear-gradient(to top right, #3f91e5 0%, #80daed 100%); /* FF3.6+ *
 
 
 .progress {
-  width: 85%;
+  width: 80%;
   float: left;
 }
 

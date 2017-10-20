@@ -191,9 +191,9 @@ height: 1.6px;
   width: 80%;
   height: 80%;
   text-align: center;
-  border: 1px solid black;
-  transition: 1s all;
-  -webkit-transition: 1s all;
+  border: 1px solid #D3FFE4;
+  transition: 0.6s all;
+  -webkit-transition: 0.6s all;
 }
 
 #image:hover {
@@ -348,7 +348,14 @@ button.back-to-top.show:active {
 			$('img').mousedown(function (e) {
 				  if(e.button == 2) {return false; }
 			}
-		</script>
+					   $('lightbox').mousedown(function (e) {
+				  if(e.button == 2) {return false; }
+			}
+				$('row').mousedown(function (e) {
+				  if(e.button == 2) {return false; }
+			}				   
+								   
+				</script>
 		
 		</head>
 		
@@ -371,12 +378,7 @@ button.back-to-top.show:active {
   <i class="line">
     <ul class="nav">
 	<li><i class="fa fa-bars fa-2x" aria-hidden="true"></i></li>
-
-	
-	<a href="index.html#home">
 		<img src="assets/Pics/denise02.png" alt="" id="image" />
-	</a>
-		
       <li><a href="index.html#home"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a></li>
     <li><a href="index.html#contactwrap"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Contact Me</a></li>
 		<li><a href="resume.html"><i class="fa fa-id-card fa-lg" aria-hidden="true"></i> E-Resume</a></li>

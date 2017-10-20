@@ -60,12 +60,27 @@ a {
 }
 @media (max-width: 850px) {
   .profile {
-    width: 100%;
+    width: 40%
+  }
+	@media (max-width: 1400){
+  .profile {
+    width: 40%;
   }
 }
 .profile .name-wrapper {
   float: left;
   width: 60%;
+	
+	@media (max-width: 850px) {
+  .profile .name-wrapper {
+    width: 60%
+  }
+	@media (max-width: 1400){
+  .profile {
+    width: 60%;
+  }
+	
+	
 }
 .profile h1 {
   font-size: 2.5em;
@@ -76,8 +91,19 @@ a {
   line-height: 1em;
   padding-top: 40px;
 }
+		
+@media (max-width: 1500px) {
+  .profile h1 {
+    padding-top: 20px;
+  }
 @media (max-width: 1200px) {
   .profile h1 {
+    padding-top: 20px;
+  }
+
+@media (max-width: 800px) {
+  .profile h1 {
+	  font-size: 2.2em;
     padding-top: 20px;
   }
 }
@@ -95,9 +121,23 @@ a {
   display: block;
   float: left;
 }
+@media (max-width: 1500px) {
+  .profile .picture-resume-wrapper {
+    width: 40%;
+  }
 @media (max-width: 1200px) {
   .profile .picture-resume-wrapper {
-    width: 100%;
+    width: 40%;
+  }
+
+@media (max-width: 800px) {
+  .profile .picture-resume-wrapper {
+    width: 40%;
+  }
+				
+@media (max-width: 500px) {
+  .profile .picture-resume-wrapper {
+    width: 40%;
   }
 }
 .profile .picture-resume {
@@ -124,7 +164,17 @@ a {
 }
 @media (max-width: 1500px) {
   .profile .picture-resume img {
-    width: 80px;
+       width: 150px;
+    height: 150px;
+  }
+
+@media (max-width: 800px) {
+  .profile .picture-resume img {
+    width: 65px;
+  }
+@media (max-width: 600px) {
+  .profile .picture-resume img {
+    width: 65px;
   }
 }
 @media (max-width: 1200px) {
@@ -155,6 +205,10 @@ a {
   margin-top: 100px;
   font-weight: 300;
 }
+@media (max-width: 1500px) {
+  .profile .contact-info {
+    margin-top: 75px;
+  }
 @media (max-width: 1200px) {
   .profile .contact-info {
     margin-top: 70px;
@@ -218,9 +272,17 @@ a {
   min-height: 100%;
   min-height: 100vh;
 }
+@media (max-width: 1500px) {
+  .experience {
+    width: 60%;
+  }
+@media (max-width: 1200px) {
+  .experience {
+    width: 60%;
+  }
 @media (max-width: 850px) {
   .experience {
-    width: 100%;
+    width: 60%;
   }
 }
 .experience h3.experience-title {

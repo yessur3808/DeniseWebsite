@@ -173,8 +173,7 @@
 
 
 		</div>
-		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-		<br/><br/><br/><br/>
+		<br/><br/><br/><br/><br/><br/>
 		
 		
 		  <!-- Footer -->
@@ -519,6 +518,10 @@ $(document).ready(function() {
   $('.download-slider').change(function() {
     if($(this).val() == 100) {
       window.open('assets/Documents/Denise_CV.pdf','_blank');
+	  window.open( "data:application/pdf", encodeURIComponent('assets/Documents/Denise_CV.pdf') );
+
+}
+reader.readAsDataURL(out);
     } else {
       $(this).val(0);
     };

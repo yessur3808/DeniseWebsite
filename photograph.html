@@ -769,11 +769,14 @@ Waves.init();
 	
 			<script type="text/javascript">
 		$(document).ready(function() {
+			no_Copy();
+			
+			
   $(".menu").click(function(){
     $(this).toggleClass("active");
   }); 
 });
-		 no_Copy();		
+		 		
 				
 		function no_Copy(){
 	$('body').bind('contextmenu',function() { return false; });

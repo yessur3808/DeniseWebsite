@@ -33,7 +33,7 @@
 	
 	
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -53,148 +53,7 @@
 	
 	<style  type="text/css"></style>
 	
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="assets/js/jquery.easing.min.js"></script>
 
-
-		
-	
-	
-	
-	<script type="text/javascript">
-		$(function() {
-  $('.view_details').click(function() {
-    if ($(this).is(':checked')) {
-      $(this)
-        .next('label')
-        .html('&times;')
-        .attr('title', 'tap here to close full profile');
-      $(this)
-        .parent()
-        .next('main')
-        .slideDown('normal');
-    } else {
-      $(this)
-        .next('label')
-        .html('=')
-        .attr('title', 'tap here to view full profile');
-      $(this)
-        .parent()
-        .next('main')
-        .slideUp('fast');
-    }
-  });
-});	</script>
-		
-
-<script type="text/javascript">
-
-		window.onload = function() {
-	var elements = document.getElementsByClassName('txt-rotate');
-	for (var i = 0; i < elements.length; i++) {
-		var toRotate = elements[i].getAttribute('data-rotate');
-		var period = elements[i].getAttribute('data-period');
-		if (toRotate) {
-			new TxtRotate(elements[i], JSON.parse(toRotate), period);
-		}
-	}
-	
-	
-	
-	
-	jQuery.noConflict();
-(function($) {
-	$(function() {
-		$('a.page-scroll').bind('click', function(event) {
-			var $anchor = $(this);
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top
-			}, 1500, 'easeInOutExpo');
-			event.preventDefault();
-		});
-	});
-})(jQuery);
-	
-	
-</script>
-	
-		<script type="text/javascript">
-// PreLoader
-jQuery.noConflict();
-(function($) {
-	$(window).on('load', function() { // makes sure the whole site is loaded
-		$('#status').fadeOut(); // will first fade out the loading animation
-		$('#preloader').delay(200).fadeOut('slow'); // will fade out the white DIV that covers the website.
-	});
-})(jQuery);
-
-
-
-
-
-window.onload = function() {
-	var elements = document.getElementsByClassName('txt-rotate');
-	for (var i = 0; i < elements.length; i++) {
-		var toRotate = elements[i].getAttribute('data-rotate');
-		var period = elements[i].getAttribute('data-period');
-		if (toRotate) {
-			new TxtRotate(elements[i], JSON.parse(toRotate), period);
-		}
-	}// INJECT CSS
-	var css = document.createElement("style");
-	css.type = "text/css";
-	css.innerHTML = ".txt-rotate > .wrap { border-right: 10px solid #DDD4FF }";
-	document.body.appendChild(css);
-};
-
-var TxtRotate = function(el, toRotate, period) {
-	this.toRotate = toRotate;
-	this.el = el;
-	this.loopNum = 0;
-	this.period = parseInt(period, 1) || 1000;
-	this.txt = '';
-	this.tick();
-	this.isDeleting = false;
-};
-
-TxtRotate.prototype.tick = function() {
-	var i = this.loopNum % this.toRotate.length;
-	var fullTxt = this.toRotate[i];
-
-	if (this.isDeleting) {
-		this.txt = fullTxt.substring(0, this.txt.length - 1);
-	} else {
-		this.txt = fullTxt.substring(0, this.txt.length + 1);
-	}
-
-	this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-	var that = this;
-	var delta = 200 - Math.random() * 100;
-
-	if (this.isDeleting) {
-		delta /= 2;
-	}
-
-	if (!this.isDeleting && this.txt === fullTxt) {
-		delta = this.period;
-		this.isDeleting = true;
-	} else if (this.isDeleting && this.txt === '') {
-		this.isDeleting = false;
-		this.loopNum++;
-		delta = 200;
-	}
-
-	setTimeout(function() {
-		that.tick();
-	}, delta);
-};
-</script>
-	
-	  
-	  
-	  
-	  
 	   <!--Denise's Analytics-->
 	  
    
@@ -977,7 +836,11 @@ go here
 			callbackAfter: function ( toggle, anchor ) {}
 		});
 	</script> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="assets/js/jquery.easing.min.js"></script>
 
+
+		
 	
 <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -1005,7 +868,137 @@ go here
       });
 	   </script>
 		
+			<script type="text/javascript">
+		$(function() {
+  $('.view_details').click(function() {
+    if ($(this).is(':checked')) {
+      $(this)
+        .next('label')
+        .html('&times;')
+        .attr('title', 'tap here to close full profile');
+      $(this)
+        .parent()
+        .next('main')
+        .slideDown('normal');
+    } else {
+      $(this)
+        .next('label')
+        .html('=')
+        .attr('title', 'tap here to view full profile');
+      $(this)
+        .parent()
+        .next('main')
+        .slideUp('fast');
+    }
+  });
+});	</script>
 		
+
+<script type="text/javascript">
+
+		window.onload = function() {
+	var elements = document.getElementsByClassName('txt-rotate');
+	for (var i = 0; i < elements.length; i++) {
+		var toRotate = elements[i].getAttribute('data-rotate');
+		var period = elements[i].getAttribute('data-period');
+		if (toRotate) {
+			new TxtRotate(elements[i], JSON.parse(toRotate), period);
+		}
+	}
+	
+	
+	
+	
+	jQuery.noConflict();
+(function($) {
+	$(function() {
+		$('a.page-scroll').bind('click', function(event) {
+			var $anchor = $(this);
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1500, 'easeInOutExpo');
+			event.preventDefault();
+		});
+	});
+})(jQuery);
+	
+	
+</script>
+	
+		<script type="text/javascript">
+// PreLoader
+jQuery.noConflict();
+(function($) {
+	$(window).on('load', function() { // makes sure the whole site is loaded
+		$('#status').fadeOut(); // will first fade out the loading animation
+		$('#preloader').delay(200).fadeOut('slow'); // will fade out the white DIV that covers the website.
+	});
+})(jQuery);
+
+
+
+
+
+window.onload = function() {
+	var elements = document.getElementsByClassName('txt-rotate');
+	for (var i = 0; i < elements.length; i++) {
+		var toRotate = elements[i].getAttribute('data-rotate');
+		var period = elements[i].getAttribute('data-period');
+		if (toRotate) {
+			new TxtRotate(elements[i], JSON.parse(toRotate), period);
+		}
+	}// INJECT CSS
+	var css = document.createElement("style");
+	css.type = "text/css";
+	css.innerHTML = ".txt-rotate > .wrap { border-right: 10px solid #DDD4FF }";
+	document.body.appendChild(css);
+};
+
+var TxtRotate = function(el, toRotate, period) {
+	this.toRotate = toRotate;
+	this.el = el;
+	this.loopNum = 0;
+	this.period = parseInt(period, 1) || 1000;
+	this.txt = '';
+	this.tick();
+	this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+	var i = this.loopNum % this.toRotate.length;
+	var fullTxt = this.toRotate[i];
+
+	if (this.isDeleting) {
+		this.txt = fullTxt.substring(0, this.txt.length - 1);
+	} else {
+		this.txt = fullTxt.substring(0, this.txt.length + 1);
+	}
+
+	this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+	var that = this;
+	var delta = 200 - Math.random() * 100;
+
+	if (this.isDeleting) {
+		delta /= 2;
+	}
+
+	if (!this.isDeleting && this.txt === fullTxt) {
+		delta = this.period;
+		this.isDeleting = true;
+	} else if (this.isDeleting && this.txt === '') {
+		this.isDeleting = false;
+		this.loopNum++;
+		delta = 200;
+	}
+
+	setTimeout(function() {
+		that.tick();
+	}, delta);
+};
+</script>
+	
+	  
 
  </body>
 </html>

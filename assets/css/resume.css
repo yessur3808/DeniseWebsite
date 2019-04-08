@@ -120,7 +120,7 @@ a {
 }
 .profile .picture-resume img {
   border-radius: 50%;
-  width: 130px;
+  width: 80px;
 }
 @media (max-width: 1500px) {
   .profile .picture-resume img {
@@ -129,7 +129,6 @@ a {
 }
 @media (max-width: 1200px) {
   .profile .picture-resume img {
-    width: 120px;
     height: 120px;
   }
 }
